@@ -1,0 +1,117 @@
+div.header {
+	width: 100%;
+	position: relative;
+	margin-bottom: 25px;
+	img.logo {
+		width: 220px;
+		margin-left: 20px;
+	}
+	label.searchJob {
+		width: 700px;
+		float: right;
+		background: linear-gradient($searchGradient1, $searchGradient2);
+		border-radius: 5px;
+		padding-top: 15px;
+		padding-bottom: 10px;
+		padding-left: 20px;
+		box-shadow:inset 0px 0px 1px 2px $greyShadow;
+		position: relative;
+		input {
+			height: 35px;
+			width: 450px;
+			border-radius: 20px;
+			padding-left: 15px;
+			box-shadow:inset 2px 1px 2px 2px $searchGradient2;
+			font-weight: 500;
+			position: relative;
+		}
+		a.searchLoupe {
+			position: absolute;
+			left: 450px;
+			top: 19px;
+			height: 30px;
+			img.loupe {
+				width: 35px;
+			}
+		}
+	}
+	a.reportLackOfWork {
+		display: block;
+		float: right;
+		border-bottom-right-radius: 5px;
+		border-bottom-left-radius: 5px;
+		background-color: $lackOfWork;
+		height: 20px;
+		line-height: 20px;
+		width: 140px;
+		color: $darkFont;
+		padding: 5px;
+		padding-left: 10px;
+		text-decoration: none;
+		font-size: 12px;
+		position: absolute;
+		right: 250px;
+		top: 66px;
+	}
+	span.counter {
+		display: block;
+		float: right;
+		border-bottom-right-radius: 5px;
+		border-bottom-left-radius: 5px;
+		background-color: $counter;
+		height: 20px;
+		line-height: 20px;
+		width: 110px;
+		color: $darkFont;
+		padding: 5px;
+		padding-left: 10px;
+		text-decoration: none;
+		font-size: 12px;
+		position: absolute;
+		right: 407px;
+		top: 66px;
+
+	}
+}
+div.menu {
+	float: left;
+	width: 1090px;
+	height: 70px;
+	div.menuUp {
+		border-top-left-radius: 10px;
+		height: 49px;
+		background: linear-gradient($menuGreen, $menuGreen2);
+		border-bottom: 2px solid $menuBorder;
+		ul.menuList {
+			list-style: none;
+			padding-left: 10px;
+			a {
+				text-decoration: none;
+				color: #FFF;
+				font-weight: 400;
+				font-size: 16px;
+				&:hover {
+					font-weight: 600;
+					li {
+						background-color: $menuHoverGreen;
+						height: 50px;
+					}
+				}
+				li {
+					float: left;
+					border-right: 1px ridge #5aa98f;
+					padding: 10px;
+					padding-left: 13px;
+					padding-right: 13px;
+					height: 30px;
+				}
+			}
+		}
+	}	
+	div.menuBar {
+		height: 20px;
+		width: 100%;
+		background-color: $menuBar;
+		border-bottom-left-radius: 10px;
+	}
+}

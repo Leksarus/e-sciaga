@@ -1,0 +1,24 @@
+@import 'colors-and-dimensions.scss';
+@import '_header.scss';
+@import '_left-content.scss';
+@import '_right-content.scss';
+@import '_lowerMenu.scss';
+
+div.background {
+	padding-top: 5px;
+	margin: auto;
+	width: $backgroundWidth;
+	height: $backgroundHeight;
+	background-image: url('../images/background.png');
+	font-family: 'Ek Mukta', sans-serif;
+	clear: both;
+	div.mainFrame {
+		background-color: #FFF;
+		clear: both;
+		margin: auto;
+		width: $mainFrameWidth;
+		padding: 20px;
+		border-radius: 5px;
+		height: ($backgroundHeight) - 100px;
+	}
+}
