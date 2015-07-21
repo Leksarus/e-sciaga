@@ -1,3 +1,3 @@
 # e-ściąga
 
-Project contains HTML and styles for layout e-ściąga from page Rahu.pl
+Project contains HTML content and styles for page with secondary school certificate's presentations.
