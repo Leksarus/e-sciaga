@@ -1,0 +1,542 @@
+/* line 1, ../sass/_header.scss */
+div.header {
+  width: 100%;
+  position: relative;
+  margin-bottom: 25px;
+}
+/* line 5, ../sass/_header.scss */
+div.header img.logo {
+  width: 220px;
+  margin-left: 20px;
+}
+/* line 9, ../sass/_header.scss */
+div.header label.searchJob {
+  width: 700px;
+  float: right;
+  background: linear-gradient(#f3f6e6, #eaeddd);
+  border-radius: 5px;
+  padding-top: 15px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  box-shadow: inset 0px 0px 1px 2px #d9dbcc;
+  position: relative;
+}
+/* line 19, ../sass/_header.scss */
+div.header label.searchJob input {
+  height: 35px;
+  width: 450px;
+  border-radius: 20px;
+  padding-left: 15px;
+  box-shadow: inset 2px 1px 2px 2px #eaeddd;
+  font-weight: 500;
+  position: relative;
+}
+/* line 28, ../sass/_header.scss */
+div.header label.searchJob a.searchLoupe {
+  position: absolute;
+  left: 450px;
+  top: 19px;
+  height: 30px;
+}
+/* line 33, ../sass/_header.scss */
+div.header label.searchJob a.searchLoupe img.loupe {
+  width: 35px;
+}
+/* line 38, ../sass/_header.scss */
+div.header a.reportLackOfWork {
+  display: block;
+  float: right;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  background-color: #dbe1bf;
+  height: 20px;
+  line-height: 20px;
+  width: 140px;
+  color: #45494F;
+  padding: 5px;
+  padding-left: 10px;
+  text-decoration: none;
+  font-size: 12px;
+  position: absolute;
+  right: 250px;
+  top: 66px;
+}
+/* line 56, ../sass/_header.scss */
+div.header span.counter {
+  display: block;
+  float: right;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  background-color: #eaedd9;
+  height: 20px;
+  line-height: 20px;
+  width: 110px;
+  color: #45494F;
+  padding: 5px;
+  padding-left: 10px;
+  text-decoration: none;
+  font-size: 12px;
+  position: absolute;
+  right: 407px;
+  top: 66px;
+}
+
+/* line 76, ../sass/_header.scss */
+div.menu {
+  float: left;
+  width: 1090px;
+  height: 70px;
+}
+/* line 80, ../sass/_header.scss */
+div.menu div.menuUp {
+  border-top-left-radius: 10px;
+  height: 49px;
+  background: linear-gradient(#50a187, #4f967d);
+  border-bottom: 2px solid #a1d6be;
+}
+/* line 85, ../sass/_header.scss */
+div.menu div.menuUp ul.menuList {
+  list-style: none;
+  padding-left: 10px;
+}
+/* line 88, ../sass/_header.scss */
+div.menu div.menuUp ul.menuList a {
+  text-decoration: none;
+  color: #FFF;
+  font-weight: 400;
+  font-size: 16px;
+}
+/* line 93, ../sass/_header.scss */
+div.menu div.menuUp ul.menuList a:hover {
+  font-weight: 600;
+}
+/* line 95, ../sass/_header.scss */
+div.menu div.menuUp ul.menuList a:hover li {
+  background-color: #357d6c;
+  height: 50px;
+}
+/* line 100, ../sass/_header.scss */
+div.menu div.menuUp ul.menuList a li {
+  float: left;
+  border-right: 1px ridge #5aa98f;
+  padding: 10px;
+  padding-left: 13px;
+  padding-right: 13px;
+  height: 30px;
+}
+/* line 111, ../sass/_header.scss */
+div.menu div.menuBar {
+  height: 20px;
+  width: 100%;
+  background-color: #8dbc9d;
+  border-bottom-left-radius: 10px;
+}
+
+/* line 1, ../sass/_left-content.scss */
+div.leftContent {
+  float: left;
+  width: 210px;
+  margin-top: 15px;
+}
+/* line 5, ../sass/_left-content.scss */
+div.leftContent div.welcome {
+  width: 170px;
+  padding: 20px;
+  border: 2px solid #cbe3db;
+  padding-top: 10px;
+  border-radius: 5px;
+  margin-top: 15px;
+}
+/* line 12, ../sass/_left-content.scss */
+div.leftContent div.welcome span:first-child {
+  font-size: 20px;
+  color: #ff5a2c;
+  font-weight: 600;
+}
+/* line 17, ../sass/_left-content.scss */
+div.leftContent div.welcome span:last-child {
+  margin-top: 15px;
+  display: block;
+  font-size: 14px;
+  color: #45494F;
+  line-height: 15px;
+}
+/* line 25, ../sass/_left-content.scss */
+div.leftContent div.orangeBox {
+  width: 200px;
+  padding: 5px;
+  background: linear-gradient(#fdb202, #fe7f02);
+  border: 1px groove #fe7f02;
+  border-radius: 5px;
+  margin-top: 15px;
+}
+/* line 32, ../sass/_left-content.scss */
+div.leftContent div.orangeBox div.orangeBoxTxt {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 200px;
+  color: #FFF;
+  font-size: 15px;
+  background-color: #d67405;
+  text-align: center;
+  border-radius: 5px;
+}
+/* line 43, ../sass/_left-content.scss */
+div.leftContent div.tipsAndSuggestions {
+  width: 180px;
+  border: 2px solid #cbe3db;
+  border-radius: 5px;
+  padding-right: 20px;
+  padding-left: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-top: 10px;
+  margin-top: 15px;
+}
+/* line 53, ../sass/_left-content.scss */
+div.leftContent div.tipsAndSuggestions span {
+  font-size: 20px;
+  color: #ff5a2c;
+  font-weight: 600;
+  margin-left: 10px;
+}
+/* line 59, ../sass/_left-content.scss */
+div.leftContent div.tipsAndSuggestions ul.tipsAndSuggestionsMenu {
+  margin: 0;
+  padding: 0;
+  list-style-image: url("../images/list-arrow.png");
+}
+/* line 63, ../sass/_left-content.scss */
+div.leftContent div.tipsAndSuggestions ul.tipsAndSuggestionsMenu a {
+  display: block;
+  width: 100%;
+  padding-bottom: 5px;
+  text-decoration: none;
+  color: #45494F;
+  padding: 5px;
+  border-radius: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  line-height: 30px;
+  box-sizing: border-box;
+}
+/* line 75, ../sass/_left-content.scss */
+div.leftContent div.tipsAndSuggestions ul.tipsAndSuggestionsMenu a:nth-child(2n + 2) {
+  background: linear-gradient(#f6f8e7, #eaecdd);
+  box-shadow: inset 1px 1px 1px 1px #8795A3;
+}
+/* line 79, ../sass/_left-content.scss */
+div.leftContent div.tipsAndSuggestions ul.tipsAndSuggestionsMenu a li {
+  line-height: 15px;
+  margin-left: 15px;
+  font-weight: 600;
+  font-size: 13px;
+}
+/* line 88, ../sass/_left-content.scss */
+div.leftContent div.commercialBanner {
+  float: left;
+  width: 100%;
+  border: 2px solid #cbe3db;
+  border-radius: 5px;
+  margin-top: 10px;
+  color: #beded2;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  text-align: center;
+}
+
+/* line 1, ../sass/_right-content.scss */
+div.rightContent {
+  width: 770px;
+  margin-top: 30px;
+  float: right;
+}
+/* line 5, ../sass/_right-content.scss */
+div.rightContent div.yourHere {
+  float: left;
+  width: 100%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 15px;
+  font-size: 14px;
+  color: #45494F;
+  border: 2px solid #cbe3db;
+  border-radius: 5px;
+  position: relative;
+}
+/* line 16, ../sass/_right-content.scss */
+div.rightContent div.yourHere a {
+  margin-left: 20px;
+  color: #ff5a2c;
+  text-decoration: none;
+  font-weight: bold;
+}
+/* line 21, ../sass/_right-content.scss */
+div.rightContent div.yourHere a:hover {
+  text-decoration: underline;
+}
+/* line 25, ../sass/_right-content.scss */
+div.rightContent div.yourHere img.mainPicture {
+  position: absolute;
+  width: 296px;
+  right: -40px;
+  bottom: 0;
+}
+/* line 32, ../sass/_right-content.scss */
+div.rightContent div.commercialBar {
+  border: 2px solid #cbe3db;
+  width: 740px;
+  float: left;
+  padding: 15px;
+  margin-top: 10px;
+}
+/* line 38, ../sass/_right-content.scss */
+div.rightContent div.commercialBar span.commercialBarFirm {
+  width: 100%;
+  font-size: 15px;
+  color: #50a187;
+  font-weight: bold;
+  text-align: left;
+  text-decoration: underline;
+}
+/* line 46, ../sass/_right-content.scss */
+div.rightContent div.commercialBar span.commercialBarTxt {
+  font-size: 15px;
+  color: #45494F;
+  text-decoration: none;
+}
+/* line 51, ../sass/_right-content.scss */
+div.rightContent div.commercialBar a {
+  font-size: 12px;
+  text-decoration: none;
+  color: #45494F;
+  opacity: 0.8;
+  font-size: bold;
+  text-decoration: underline;
+}
+/* line 58, ../sass/_right-content.scss */
+div.rightContent div.commercialBar a:hover {
+  font-weight: 600;
+  font-size: 15px;
+}
+/* line 64, ../sass/_right-content.scss */
+div.rightContent div.commercialBar span.lowerLine a:last-child {
+  float: right;
+}
+/* line 70, ../sass/_right-content.scss */
+div.rightContent a.presentationBanner img {
+  margin-top: 8px;
+  width: 775px;
+}
+/* line 75, ../sass/_right-content.scss */
+div.rightContent span.bestPresentations {
+  font-size: 18px;
+  display: block;
+  color: #45494F;
+  margin-top: 20px;
+  font-weight: bold;
+  padding-left: 3px;
+  margin-bottom: 20px;
+}
+/* line 84, ../sass/_right-content.scss */
+div.rightContent div.bestPresentationsContent, div.rightContent div.bestPresentationsContent2 {
+  float: left;
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 15px;
+}
+/* line 89, ../sass/_right-content.scss */
+div.rightContent div.bestPresentationsContent img, div.rightContent div.bestPresentationsContent2 img {
+  display: block;
+  float: left;
+  width: 80px;
+  margin-left: 7px;
+}
+/* line 95, ../sass/_right-content.scss */
+div.rightContent div.bestPresentationsContent span.bestPresentationsContentTitle, div.rightContent div.bestPresentationsContent2 span.bestPresentationsContentTitle {
+  color: #59b296;
+  display: block;
+  float: left;
+  width: 670px;
+  padding-left: 10px;
+  opacity: 1;
+}
+/* line 103, ../sass/_right-content.scss */
+div.rightContent div.bestPresentationsContent span.bestPresentationsContentTxt, div.rightContent div.bestPresentationsContent2 span.bestPresentationsContentTxt {
+  font-size: 12px;
+  padding-left: 10px;
+  display: block;
+  float: left;
+  width: 500px;
+}
+/* line 109, ../sass/_right-content.scss */
+div.rightContent div.bestPresentationsContent span.bestPresentationsContentTxt a, div.rightContent div.bestPresentationsContent2 span.bestPresentationsContentTxt a {
+  color: #59b296;
+}
+/* line 113, ../sass/_right-content.scss */
+div.rightContent div.bestPresentationsContent span.bestPresentationsContentDate, div.rightContent div.bestPresentationsContent2 span.bestPresentationsContentDate {
+  font-size: 12px;
+  display: block;
+  float: right;
+  height: 55px;
+  line-height: 55px;
+  border-left: 1px ridge #59b296;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+/* line 124, ../sass/_right-content.scss */
+div.rightContent div.bestPresentationsContent2 {
+  background: linear-gradient(#f3f6e6, #eaeddd);
+  border-radius: 5px;
+}
+/* line 129, ../sass/_right-content.scss */
+div.rightContent a.seeAll {
+  float: right;
+  display: block;
+  background: linear-gradient(#f3f6e6, #eaeddd);
+  padding: 10px;
+  color: #45494F;
+  font-size: 15px;
+  margin-top: 10px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+/* line 139, ../sass/_right-content.scss */
+div.rightContent a.seeAll:hover {
+  box-shadow: inset 1px 1px 6px 4px #B2C1D1;
+}
+/* line 143, ../sass/_right-content.scss */
+div.rightContent a.checkNewPresentations {
+  float: right;
+  display: block;
+  background: linear-gradient(#72c5ad, #4f967d);
+  padding: 10px;
+  color: #FFF;
+  font-size: 15px;
+  margin-top: 10px;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+/* line 154, ../sass/_right-content.scss */
+div.rightContent a.checkNewPresentations:hover {
+  box-shadow: inset 1px 1px 6px 4px #eaeddd;
+}
+
+/* line 1, ../sass/_lowerMenu.scss */
+div.lowerMenuContainer, div.lowerMenuContainerFirst {
+  float: right;
+  box-shadow: inset 0 0 2px 1px #64AD98;
+  width: 234px;
+  height: 190px;
+  border-radius: 5px;
+  margin-top: 10px;
+  margin-right: 20px;
+}
+/* line 9, ../sass/_lowerMenu.scss */
+div.lowerMenuContainer span.lowerMenuContainerTitle, div.lowerMenuContainerFirst span.lowerMenuContainerTitle {
+  display: block;
+  width: 214px;
+  background: linear-gradient(#72c5ad, #4f967d);
+  padding: 8px;
+  padding-left: 12px;
+  color: #fff;
+  font-size: 14px;
+  border-top-right-radius: 3px;
+  border-top-left-radius: 3px;
+}
+/* line 20, ../sass/_lowerMenu.scss */
+div.lowerMenuContainer span.lowerMenuContainerContent, div.lowerMenuContainerFirst span.lowerMenuContainerContent {
+  display: block;
+  margin: 15px;
+  color: #50a187;
+  font-size: 14px;
+}
+/* line 26, ../sass/_lowerMenu.scss */
+div.lowerMenuContainer label.mailAddress, div.lowerMenuContainerFirst label.mailAddress {
+  margin: 15px;
+  float: left;
+  position: relative;
+}
+/* line 30, ../sass/_lowerMenu.scss */
+div.lowerMenuContainer label.mailAddress input, div.lowerMenuContainerFirst label.mailAddress input {
+  height: 35px;
+  width: 100%;
+  border-radius: 20px;
+  padding-left: 15px;
+  box-shadow: inset 2px 1px 2px 2px #eaeddd;
+  font-weight: 500;
+  margin: auto;
+}
+/* line 39, ../sass/_lowerMenu.scss */
+div.lowerMenuContainer label.mailAddress a.searchLoupe, div.lowerMenuContainerFirst label.mailAddress a.searchLoupe {
+  position: absolute;
+  height: 30px;
+  top: 5px;
+  left: 168px;
+}
+/* line 44, ../sass/_lowerMenu.scss */
+div.lowerMenuContainer label.mailAddress a.searchLoupe img.loupe, div.lowerMenuContainerFirst label.mailAddress a.searchLoupe img.loupe {
+  width: 35px;
+}
+/* line 49, ../sass/_lowerMenu.scss */
+div.lowerMenuContainer ul, div.lowerMenuContainerFirst ul {
+  list-style: none;
+  margin-top: 20px;
+  padding: 0;
+  list-style-image: url("../images/right-arrow.png");
+}
+/* line 54, ../sass/_lowerMenu.scss */
+div.lowerMenuContainer ul li, div.lowerMenuContainerFirst ul li {
+  margin-left: 25px;
+}
+/* line 56, ../sass/_lowerMenu.scss */
+div.lowerMenuContainer ul li a, div.lowerMenuContainerFirst ul li a {
+  color: #50a187;
+  text-decoration: none;
+  font-size: 14px;
+}
+/* line 60, ../sass/_lowerMenu.scss */
+div.lowerMenuContainer ul li a:hover, div.lowerMenuContainerFirst ul li a:hover {
+  font-weight: 600;
+}
+
+/* line 67, ../sass/_lowerMenu.scss */
+div.lowerMenuContainerFirst {
+  margin-right: 1px;
+}
+
+/* line 71, ../sass/_lowerMenu.scss */
+div.lowerInfo {
+  width: 975px;
+  float: right;
+  padding: 20px;
+  margin-top: 10px;
+  font-size: 14px;
+}
+/* line 77, ../sass/_lowerMenu.scss */
+div.lowerInfo span.copyrights {
+  display: block;
+  margin-top: 40px;
+}
+
+/* line 7, ../sass/main.scss */
+div.background {
+  padding-top: 5px;
+  margin: auto;
+  width: 1180px;
+  height: 1500px;
+  background-image: url("../images/background.png");
+  font-family: 'Ek Mukta', sans-serif;
+  clear: both;
+}
+/* line 15, ../sass/main.scss */
+div.background div.mainFrame {
+  background-color: #FFF;
+  clear: both;
+  margin: auto;
+  width: 1000px;
+  padding: 20px;
+  border-radius: 5px;
+  height: 1400px;
+}
