@@ -1,0 +1,81 @@
+div.lowerMenuContainer {
+	float: right;
+	box-shadow:inset 0 0 2px 1px #64AD98;
+	width: $lowerMenuContainerWidth;
+	height: 190px;
+	border-radius: 5px;
+	margin-top: 10px;
+	margin-right: 20px;
+	span.lowerMenuContainerTitle {
+		display: block;
+		width: ($lowerMenuContainerWidth) - 20px;
+		background: linear-gradient(#72c5ad, $menuGreen2);
+		padding: 8px;
+		padding-left: 12px;
+		color: #fff; 
+		font-size: 14px;
+		border-top-right-radius: 3px;
+		border-top-left-radius: 3px;
+	}
+	span.lowerMenuContainerContent {
+		display: block;
+		margin: 15px;
+		color: $menuGreen;
+		font-size: 14px;
+	}
+	label.mailAddress {
+		margin: 15px;
+		float: left;
+		position: relative;
+		input {
+			height: 35px;
+			width: 100%;
+			border-radius: 20px;
+			padding-left: 15px;
+			box-shadow:inset 2px 1px 2px 2px $searchGradient2;
+			font-weight: 500;
+			margin: auto;
+		}
+		a.searchLoupe {
+			position: absolute;
+			height: 30px;
+			top: 5px;
+			left: 168px;
+			img.loupe {
+				width: 35px;
+			}
+		}
+	}
+	ul {
+		list-style: none;
+		margin-top: 20px;
+		padding: 0;
+		list-style-image: url('../images/right-arrow.png');
+		li {
+			margin-left: 25px;
+			a {
+				 color: $menuGreen;
+				 text-decoration: none;
+				 font-size: 14px;
+				 &:hover {
+				 	font-weight: 600;
+				 }
+			}	 
+		}
+	}
+}
+div.lowerMenuContainerFirst {
+	@extend.lowerMenuContainer;
+	margin-right: 1px; 
+}
+div.lowerInfo {
+	width: ($mainFrameWidth) - 25px;
+	float: right;
+	padding: 20px;
+	margin-top: 10px;
+	font-size: 14px;
+	span.copyrights {
+		display: block;
+		margin-top: 40px;
+	}
+}
